@@ -1,2 +1,4 @@
-
-
+table,th,td {
+    border: 1px solid rgb(34, 11, 240);
+    border-collapse: collapse; /* tak aby ohraničení tabulky collapsnulo do sebe*/
+  }
