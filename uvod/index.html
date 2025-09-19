@@ -52,7 +52,7 @@
     <p>The <abbr title="WHO">World heatlh organization</abbr>byla založena 1948</p>
 
 
-    <table class="tabulka">
+    <table>
         <thead>
             <tr>
             <th>Header1</th>
@@ -75,7 +75,7 @@
         </tbody>
         
     </table>
-
+    <div class = "seznam">
     <p>Uspořádaný seznam</p>
 
     <ol>
@@ -100,28 +100,33 @@
         <dt>Milk</dt>
         <dd>- white cold drink</dd>
     </dl>
-
+    </div>
     <p>Formulář</p>
 
     <form>
 
+    <div class="formular">    
     <label for="f_name">Jméno:</label>
-    <input type="text" id="f_name" name="f_name" required><br>
+    <input type="text" id="f_name" name="f_name" required>
 
     <label for="l_name">Příjmení:</label>
     <input type="text" id="l_name" name="l_name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email"><br>
 
     <input type="radio" id="html" name="fav_language" value="HTML">
     <label for="html">HTML</label><br>
     <input type="radio" id="css" name="fav_language" value="CSS">
     <label for="css">CSS</label><br>
     <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-    <label for="javascript">JavaScript</label> <br>
+    <label for="javascript">JavaScript</label> <br> 
 
-    <label for="email">Email:</label>
-    <input type="email" name="email" id="email" readonly><br>
+    
+    </div>
+    <br>
 
-    <label for="šrombálek">Fotbal</label>
+    <label for="srombalek">Fotbal</label>
         <select id="srombalek" name="srombalek">
             <option value="Sl">Slavie</option>
             <option value="SP">Sparta</option>
@@ -139,24 +144,28 @@
     <input type="file" name="soubor"><br>
 
     <label for="cislo">Vyber číslo</label>
-    <input type="number" name="cislo">
+    <input type="number" name="cislo"> <br>
 
     <label for="heslo">Napiš <abbr title="vše zabezpečeno">heslo</abbr></label>    
-    <input type="password" name="heslo" required>
+    <input type="password" name="heslo" required> <br>
 
-    <input type="reset">
+    <input type="reset"> <br>
 
-    <input type="time">
-    <input type="search">
+    <input type="time"> <br>
+    <input type="search"> <br>
 
-    <input type="tel">
+    <input type="tel"> <br>
 
-    <input type="image">
+    <input type="image"> <br>
 
-    <input type="url">
+    <input type="url"> <br>
 
-    <input type="range">
-    <input type="submit" value="Odeslat">
+    <input type="range">  <br>
+
+    <input type="submit" value="Odeslat"> <br>
+
+
+    <p>další formuláře</p>
 
 
     </form>
