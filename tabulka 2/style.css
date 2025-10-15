@@ -1,0 +1,20 @@
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+table,
+td,
+tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    background-color: aqua;
+}
