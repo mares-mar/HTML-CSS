@@ -1,0 +1,37 @@
+.stranky{
+    display: flex;
+    direction: row;
+    justify-content: center;
+    list-style: none;
+    color: black;
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+    border: 3px black solid;
+    border-radius: 15px;
+    background: blue;
+    gap: 10px;
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+
+
+.stranky li{
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background: white;
+    
+}
+
+.stranky a{
+    text-decoration-line: none;
+}
+
+.stranky li:hover{
+    background: grey;
+    color: white;
+
+}
