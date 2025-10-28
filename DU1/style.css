@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+ }
+
+body{
+    padding: 20px;
+    background-color: white;
+}
+
+.container{
+    max-width: 1500px;  
+    margin: 0 auto;     
+
+}
+/* Prvni sekce*/
+
+.prvni_sekce{
+    background-image: url(images/pexels-photo-9392381.jpeg);
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    padding: 25px 60px 100px 60px ;
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#prvni_sekce_h1{
+    color: orange;
+    font-size: 72px;
+    width: 650px;
+
+}
+
+
+.prvni_sekce_karty{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: auto;
+}
+
+.karty{
+    background-color: rgba(40,50,60,0.7);  
+    padding: 40px 30px;
+    text-align: left;
+    
+   
+}
+
+.karty h3{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+
+.karty p {
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+
+.karty a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;   
+    padding: 10px 45px;
+    border: 2px solid goldenrod;
+}
+
+.karty_ikony{
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin-top: -15px;
+    
+}
+
+/* Search bar a menu */
+.search-logo{
+    width: 200px;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+
+
+    background-image: url(images/ikony/search-interface-symbol.png);
+    background-size: 20px;       
+    background-repeat: no-repeat;
+    background-position: right 10px center ;
+    background-color: transparent;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px; 
+
+}
+
+
+
+.navmenu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+#HOME{
+    color: orange;
+}
+
+.navmenu{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+
