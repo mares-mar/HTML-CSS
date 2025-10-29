@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
@@ -5,7 +8,8 @@
 
 body{
     padding: 20px;
-    background-color: white;
+    background-color: rgb(233, 232, 232);
+    font-family: "Roboto";
 }
 
 .container{
@@ -47,6 +51,7 @@ body{
     background-color: rgba(40,50,60,0.7);  
     padding: 40px 30px;
     text-align: left;
+    height: 150px;
     
    
 }
@@ -55,6 +60,7 @@ body{
     color: white;
     font-size: 20px;
     padding-top: 15px;
+    letter-spacing: 2px;
 
 }
 
@@ -124,4 +130,115 @@ body{
     list-style: none;
 }
 
+
+
+/* DRUHÁ SEKCE */
+.druha_sekce{
+    display: flex;
+    background-color: white;
+}
+
+
+.druha_sekce_vlevo{
+    flex: 1;
+    position: relative;
+    padding: 50px;
+    
+}
+
+.druha_sekce_vlevo_obrazek{
+    
+    width: 98%;
+}
+
+
+.druha_sekce_vlevo_text{
+    position: absolute;
+    top: 55%; /* vím že je to brutus ale nic jiného mě nenapadlo*/
+    width: 83%;
+    text-align: center;
+}
+
+.druha_sekce_vlevo_text h3{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.druha_sekce_vlevo_text p{
+    color: white;
+    font-size: 15px;
+    margin: auto;
+    width: 310px;
+    
+}
+
+.druha_sekce_vlevo_text img{
+    width: 230px;
+    margin-top: 30px;
+    
+}
+
+
+.druha_sekce_vpravo{
+    flex: 2;
+    padding: 80px 50px 50px 0px;
+}
+
+.druha_sekce_vpravo h2{
+    font-size: 34px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+#druha_sekce_vpravo_zluta{
+    width: 50px;
+    height: 10px;
+    background-color: #FDB515;
+    margin-bottom: 25px;
+    margin: auto;
+}
+
+.druha_sekce_vpravo p{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.druha_sekce_vpravo_text2{
+    background-color: rgb(225, 224, 224);
+    margin-top: 170px;
+   padding-bottom: 50px;
+    
+}
+
+.druha_sekce_vpravo_text2 p{
+    padding-top:  40px;
+}
+
+#druha_sekce_vpravo_button {
+    text-align: center;
+    margin-top: 70px
+}
+
+#druha_sekce_vpravo_button a{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 15px 50px;
+
+
+}
 

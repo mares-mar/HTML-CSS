@@ -1,0 +1,65 @@
+.treti_sekce{
+    display: flex;
+    background-color: rgb(247, 246, 246);
+}
+
+.treti_sekce_vlevo{
+    flex: 1;
+    padding: 70px;
+    
+}
+
+.treti_sekce_vlevo h3{
+    max-width: 75%;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.treti_sekce_vlevo p{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.7;
+    max-width: 80%;
+    padding-bottom: 20px;
+}
+
+.treti_sekce_vlevo img {
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.treti_sekce_vlevo a{
+    color: black;
+}
+
+.treti_sekce_vpravo{
+    flex:1;
+    padding: 70px 70px 70px 0px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.treti_sekce_vpravo img {
+    width: 65%;
+    align-self: flex-end;
+    padding-bottom: 120px;
+}
+
+.treti_sekce_vpravo h3{
+    max-width: 90%;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.treti_sekce_vpravo li {
+    list-style-image: url(images/ikony/checkmark.png);
+    line-height: 1.5;
+}
+
+.treti_sekce_vpravo ul {
+    padding-left: 20px;
+}

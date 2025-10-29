@@ -1,0 +1,77 @@
+.ctvrta_sekce{
+    background-color: rgb(247, 246, 246);
+}
+
+.ctvrta_sekce h1 {
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ctvrta_sekce p {
+    margin: auto;
+    max-width: 65%;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+}
+
+.ctvrta_sekce_grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 30px 50px 30px 50px;
+}
+
+.ctvrta_sekce_zluta{
+    width: 450px;
+    height: 450px;
+    background-color: orange;
+}
+
+.ctvrta_sekce_zluta h3{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 130px;
+    letter-spacing: 2px;
+    
+}
+
+.ctvrta_sekce_zluta p{
+    color: white;
+    text-align: center;
+    line-height: 1.5 ;
+    max-width: 85%;
+}
+
+.ctvrta_sekce_obrazek {
+    width: 450px;
+    height: 450px;
+    object-fit: cover ;
+}
+
+.ctvrta_sekce_bila{
+    background-color: white;
+}
+
+.ctvrta_sekce_bila h3{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 130px;
+    letter-spacing: 2px;
+    
+}
+
+.ctvrta_sekce_zluta p{
+    text-align: center;
+    line-height: 1.5 ;
+    max-width: 85%;
+}
+
+.crvrta_sekce_dole a{
+    color: black;
+}
+
+.ctvrta_sekce_dole {
+    padding: 10px 0px 70px 0px !important; 
+}
