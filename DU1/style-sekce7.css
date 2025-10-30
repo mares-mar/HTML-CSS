@@ -1,0 +1,111 @@
+.sedma_sekce{
+    background-color: white;
+    padding: 60px; /* Vím používal jsem 50px ale s 60px to vypadá líp.*/
+}
+
+.sedma_sekce h1 {
+    font-size: 72px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.sedma_sekce p {
+    font-size: 18px;
+    padding-bottom: 30px;
+    text-align: center;
+    max-width: 40%;
+    margin: auto;
+}
+
+.sedma_sekce_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.3fr;
+    gap: 50px;
+    grid-auto-rows: 600px;
+}
+
+.sedma_sekce_grid_svetly {
+    background-color: rgba(245, 217, 140, 0.144);
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.sedma_sekce_grid_svetly h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.sedma_sekce_grid_svetly h2 {
+    font-size: 62px;
+    padding-bottom: 30px;
+}
+
+.sedma_sekce_grid_svetly_zvyrazneni{
+    background-color: #fcde8d;
+    padding-top: 30px;
+}
+
+.sedma_sekce_grid_svetly ul {
+    list-style: none;
+    line-height: 2.5;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+
+
+.sedma_sekce_grid_svetly a {
+    background-color: #fcde8d;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    padding: 10px 25px 10px 25px;
+}
+
+.sedma_sekce_grid_tmavy {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.sedma_sekce_grid_tmavy h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.sedma_sekce_grid_tmavy h2 {
+    font-size: 62px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.sedma_sekce_grid_tmavy_zvyrazneni{
+    background-color: orange;
+    padding-top: 30px;
+}
+
+.sedma_sekce_grid_tmavy ul {
+    list-style: none;
+    line-height: 2.5;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+
+
+.sedma_sekce_grid_tmavy a {
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    padding: 10px 25px 10px 25px;
+}
+
+.sedma_sekce_grid_obrazek img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}

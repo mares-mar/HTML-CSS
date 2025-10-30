@@ -1,6 +1,6 @@
 .pata_sekce{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(images/fdrt.jpg.jpeg);
     background-size: 100%;
@@ -23,7 +23,7 @@
 }
 
 .pata_sekce_box h1 {
-    font-size: 60px;
+    font-size: 72px;
     color: white;
     text-align: center;
 }
@@ -31,4 +31,5 @@
 .pata_sekce_box h3 {
     color: orange;
     padding-top: 10px;
+    font-size: 22px;
 }

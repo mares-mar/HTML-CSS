@@ -42,6 +42,7 @@
     text-align: center;
     line-height: 1.5 ;
     max-width: 85%;
+    font-size: 18px;
 }
 
 .ctvrta_sekce_obrazek {
@@ -62,16 +63,18 @@
     
 }
 
-.ctvrta_sekce_zluta p{
+.ctvrta_sekce_bila p{
     text-align: center;
     line-height: 1.5 ;
     max-width: 85%;
+    font-size: 18px;
 }
 
-.crvrta_sekce_dole a{
+#ctvrta_sekce_dole_a {
     color: black;
 }
 
 .ctvrta_sekce_dole {
     padding: 10px 0px 70px 0px !important; 
+
 }

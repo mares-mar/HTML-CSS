@@ -1,0 +1,74 @@
+.sesta_sekce{
+    background-color: white;
+    padding: 60px 100px 200px 60px ;
+}
+
+.sesta_sekce_nadpisy{
+    display: flex;
+    gap: 25px;
+    
+}
+
+
+.sesta_sekce_nadpisy h3 {
+    flex: 1;
+    text-align: center;
+    font-size: 22px;
+    padding: 15px 0px 15px 0px;
+}
+
+.sesta_sekce_nadpisy_zluty {
+    background-color: orange;
+    color: white;
+}
+
+
+
+
+
+.sesta_sekce_obsah{
+    display: flex;
+    gap: 50px;
+}
+
+.sesta_sekce_obsah_obrazek{
+    flex: 1;
+    padding-top: 30px;
+    
+}
+
+.sesta_sekce_obsah_obrazek img{
+    width: 430px;
+    height: 430px;
+    
+}
+
+
+.sesta_sekce_obsah_text{
+    flex: 2;
+    padding-right: 100px;
+    padding-top: 30px;
+    
+}
+
+.sesta_sekce_obsah_text h3{
+    font-size: 22px;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+
+}
+
+.sesta_sekce_obsah_text p {
+    color: grey;
+    font-size: 18px;
+    padding-right: 80px;
+    line-height: 1.5;
+    padding-bottom: 40px;
+
+}
+
+.sesta_sekce_obsah_text ul{
+    padding-left: 18px;
+    line-height: 1.8;
+    font-size: 18px
+}

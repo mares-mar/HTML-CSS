@@ -1,0 +1,81 @@
+.sekce_deset{
+    padding: 80px 250px 30px 250px;
+    background-image: url(images/pexels-photo-3204506.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sekce_deset_boxy{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+.sekce_deset_box_bily{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+.sekce_deset_box_bily img {
+    width: 50px;
+    margin-bottom: 25px;
+
+}
+
+.sekce_deset_box_bily h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.sekce_deset_box_bily p {
+    font-size: 18px;
+}
+
+
+.sekce_deset_box_oranzovy{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.sekce_deset_box_oranzovy img {
+    width: 50px;
+    margin-bottom: 25px;
+
+}
+
+.sekce_deset_box_oranzovy h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.sekce_deset_box_oranzovy p {
+    color: white;
+    font-size: 18px;
+}
+
+.sekce_jedenact_dole{
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+
+.sekce_jedenact_dole p {
+    max-width: 25%;
+    margin: auto;
+}
+

@@ -1,0 +1,73 @@
+.sekce_osm{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.201)),url(images/pexels-photo-5990678.jpeg);
+    padding-left: 60px;
+    padding-right: 60px;
+    background-position:bottom;
+}
+
+.sekce_osm h1{
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.sekce_osm p {
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.sekce_osm_karty{
+    display: flex;
+    gap: 30px;
+}
+
+.sekce_osm_karty_zvlast{
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px 40px 50px 40px
+}
+
+.sekce_osm_karty_zvlast h3 {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+.sekce_osm_karty_zvlast img {
+    width: 170px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.sekce_osm_p_dole{
+    padding-top: 40px;
+    
+
+}
+
+.sekce_osm_p_dole a{
+    color: white;
+}
+
+.sekce_osm_tlacitko a {
+    border: 3px solid white;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 13px 30px 13px 30px;
+    font-weight: bold;
+}
+
+.sekce_osm_tlacitko{
+    text-align: center;
+    padding-bottom: 90px;
+}

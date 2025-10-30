@@ -1,0 +1,73 @@
+.sekce_devet{
+    background-color: rgb(247, 246, 246);
+    padding: 60px 200px 60px 200px;
+}
+
+.sekce_devet h1 {
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sekce_devet_bubliny{
+    display: flex;
+    gap:30px;
+
+}
+
+.sekce_devet_bubliny_leva,
+.sekce_devet_bubliny_prava{ /* Nevím nad čím jsem přemýšlel když jsem ty divy pojmenoval jinak, ale funguje to*/
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px 70px 50px 50px;
+    flex: 1;
+
+}
+
+.sekce_devet_bubliny_leva h3,
+.sekce_devet_bubliny_prava h3 {
+    margin-bottom: 20px;
+    line-height: 1.7;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.sekce_devet_bubliny_recenze {
+    display: flex;
+    
+}
+
+.sekce_devet_bubliny_recenze img {
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: center;
+}
+
+.sekce_devet_bubliny_recenze_flex {
+    display: flex;
+    flex-direction: column;
+    padding-top: 23px;
+    padding-left: 20px;
+}
+
+.sekce_devet_bubliny_recenze_flex h2{
+    font-size: 20px;
+}
+
+.sekce_devet_tlacitko{
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+.sekce_devet_tlacitko a {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
