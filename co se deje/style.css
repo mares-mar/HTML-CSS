@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*color: white;*/
+
+}
+
+header, section {
+    min-height: 100vh;
+    box-sizing: border-box;
+    
+}
+
+header {
+    background-image: url(images/lidi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-block: 30px;
+    border-bottom: 1px solid white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li:hover {
+    border-bottom: 1px solid blue;
+
+}
+
+.uvod{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-top: 40vh;
+}
+
+.uvod h1 {
+    font-size: 3rem;
+}
+
+.uvod p {
+    line-height: 2rem;
+    margin-block: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    padding: 20px 40px;
+    font-weight: bold;
+}
+
+.uvod button {
+    background-color: blue;
+}
+
+.sekce2{
+    background-color: blue;
+    min-height: 500px;
+}
+
+.sekce_2 {
+    padding: 250px;
+    display: flex;
+    gap: 50px;
+    color: white;
+}
+
+.sekce_2_1{
+    flex: 1;
+
+}
+
+.sekce_2_2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sekce_2_3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sekce3{
+    display: flex;
+
+
+}
+
+.sekce3_vlevo{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 50%;
+    padding: 150px 150px 0px 150px;
+    background-color: black;
+    color: white;
+}
+
+.sekce3_vlevo h1 {
+    margin: 50px;
+}
+
+.sekce3_vlevo button{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: auto;
+}
+
+
+.sekce3_vpravo img{
+    width: 650px;
+}
+
