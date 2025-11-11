@@ -1,0 +1,149 @@
+* { margin: 0;
+    padding: 0;
+}
+
+.sekce_1{
+    background-image: url(images/1.jpg);
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.sekce_1 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.logo{
+    color: white;
+    padding-left: 30px;
+}
+
+.moznosti a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+
+}
+
+.moznosti a:hover{
+    border-bottom: 1px solid blue;
+    padding-bottom: 20px;
+}
+
+.sekce_1_div h1{
+    margin-top: 15vh;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sekce_1_div p {
+    text-align: center;
+    margin: auto;
+    max-width: 30%;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+
+.sekce_1_div a {
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: blue;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+.sekce_1_div {
+    text-align: center;
+}
+
+
+.sekce_2{
+    display: flex;
+    height: 30vh;
+    padding: 150px 60px;
+    background-color: blue;
+    color: white;
+    gap: 60px;
+}
+
+.sekce_2_div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sekce_2_div h1{
+    font-size: 50px;
+}
+
+.sekce_2_div h3{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.sekce_2_div p{
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+
+.sekce_3{
+    display: flex;
+}
+
+.sekce_3_leva{
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    height: 50vh;
+    padding: 150px;
+    margin: auto;
+}
+
+.sekce_3_leva h1{
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.sekce_3_leva p{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.tlacitko a{
+    border: 2px solid white;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    
+ 
+}
+
+
+
+.sekce_3_prava {
+    background-image: url(images/3.jpeg);
+    width: 50%;
+    background-size: 100%;
+    background-position: center;
+
+}
