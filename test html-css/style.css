@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sekce_1{
+    background-image: url(images/1.jpg);
+    background-position: center;
+    background-size: 100%;
+    
+
+    text-align: center;
+    height: 40vh;
+}
+
+
+.sekce_1 header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.moznosti a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.logo {
+    color:white;
+    padding-left: 20px;
+}
+
+
+.sekce_1_div h1{
+    padding-top: 10vh;
+    color: white;
+    font-size: 80px;
+    padding-bottom: 30px;
+}
+
+.sekce_1_div p {
+    color:white;
+    padding-bottom: 40px;
+}
+
+.sekce_1_div a{
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.sekce_2{
+    padding: 100px;
+}
+
+.p_levy{
+    padding-bottom: 20px;
+    max-width: 40%;
+    padding-top: 20px;
+}
+
+.sekce_2_div{
+    display: flex;
+    gap: 50px;
+}
+
+.sekce_2_div_levy{
+    flex: 1;
+    box-sizing: border-box;
+    background-image: url(images/2.jpeg);
+    height: 35vh;
+    background-position: center;
+    background-size: 100%;
+}
+
+.sekce_2_div_pravy{
+    flex: 1;
+    box-sizing: border-box;
+
+    
+}
+
+.sekce_3{
+    background-color: rgb(185, 185, 185);
+    padding: 50px;
+
+}
+
+.sekce_3 h3 {
+    text-align: center;
+    color: darkgray;
+}
+
+.sekce_3_div {
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+
+}
+
+.sekce_3_div_sloupec {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sekce_3_div_sloupec img {
+
+    width: 32px;
+    height: 32px;
+    padding-bottom: 20px;
+
+
+}
+
+.sekce_3_div_sloupec h4 {
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.sekce_3_div_sloupec p {
+    margin-bottom: 20px;
+}
+
+.maly_logo img {
+    background-color: red;
+    padding: 4px;
+    border-radius: 50%;
+}
