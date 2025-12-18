@@ -23,7 +23,7 @@ jobs:
           ftp_username: ${{ secrets.FTP_USERNAME }}
           ftp_password: ${{ secrets.FTP_PASSWORD }}
  
-          local_source_dir: "DU1/"
+          local_source_dir: "karticky/"
           dist_target_dir: "web/"
  
           delete: "true"
