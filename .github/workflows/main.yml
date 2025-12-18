@@ -1,5 +1,5 @@
 name: Deploy via FTP
- 
+
 on:
   push:
     branches:
